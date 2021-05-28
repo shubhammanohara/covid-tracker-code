@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  background-color: #f8f5f1;
+}
+
+.h1{
+  color: #343f56;
+}
+
+.h2{
+  color: #387c6d;
+}
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.infoCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flag{
+  width:1.5em;
+  height:1em;
+}
+
+/* .chart{
+  display: flex;
+  
+} */
+
+.infoBoxTotal {
+  border-top: 6px solid orange;
+  background-color: lightgrey;
+}
+
+.infoBoxActive {
+  border-top: 6px solid blueviolet;
+  background-color: lightgrey;
+  width: auto;
+}
+
+.infoBoxDeaths {
+  border-top: 6px solid red;
+  background-color: lightgrey;
+  width: auto;
+}
+
+
+.graph{
+  margin-top: 30px;
+}
+
+
